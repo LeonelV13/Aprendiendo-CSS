@@ -1,0 +1,28 @@
+/* SELECTOR DE ATRIBUTO */
+img[src$="png"] {
+    width: 100%;
+}
+
+/* SELECTOR DE HIJO DIRECTO*/
+li > em {
+    color: red;
+}
+
+ul li{
+    color: blue;
+}
+
+ul strong{
+    color: green;
+}
+
+/* SELECTOR DE HERMANO ADYACENTE*/
+
+h1 + p {
+    background-color: brown;
+}
+
+/* SELECTOR DE HERMANOS GENERALES*/
+H1 ~ p {
+    color: yellow;
+}
