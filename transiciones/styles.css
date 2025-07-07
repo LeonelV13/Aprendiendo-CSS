@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background-color: #f00;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    transition-property: background-color, color, left;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.17, 0.36, 0.9, 0.45);
+    transition-delay: 2s;
+    /* o tambien se puede juntar todo en...
+    transition: background-color, color, left 1s cubic-bezier(0.17, 0.36, 0.9, 0.45) 2s */
+    color: red;
+    position: relative;
+    left: 0;
+}
+
+body:hover .box{
+    background-color: blue;
+    color: #fff;
+    left: 400px;
+}
