@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img {
+    width: 400px;
+    height: 600px;
+    object-fit: contain;
+    border: 2px solid #000;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50px;
+    border: 2px solid #000;
+    margin-top: 50px;
+    margin-left: 50px;
+}
